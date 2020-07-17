@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pescudo selectors</title>
+    <style>
+         .container{
+             border: 2px solid chocolate;
+             background-color: blueviolet;
+             margin: 13px auto;
+             width: 666px;
+             padding: 34px ;
+         }
+         .btn{
+             color: white;
+             background-color: black;
+             padding: 6px;
+             border: none;
+             border-radius: 12px;
+             cursor: pointer;
+             font-size: 13px;
+             margin: 4px;
+         }
+         a{
+             text-decoration: none;
+         }
+         
+         a:hover{
+             color:blue;
+             background-color: yellowgreen;
+            }
+            a:visited{
+                background-color: black;
+            }
+            
+            a:active{
+                background-color: brown;
+                
+            }
+            .btn:hover{
+                color: rgb(57, 11, 100);
+                background-color: rgb(175, 175, 192);
+                border:2px solid black;
+            }
+            </style>
+</head>
+<body>
+    
+    <div class="container" id="cont1">
+        <h2>this is my heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim pariatur voluptate, iure delectus reiciendis sunt veritatis expedita minima quo, quas dicta a itaque. Magnam aut eius, eveniet temporibus perspiciatis perferendis quidem id dicta dolor?</p>
+        <a href="https://google.com" class="btn"> Read more</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+</html>
